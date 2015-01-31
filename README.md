@@ -1,4 +1,3 @@
-fibonacci
-=========
+First-Game
 
-Different implementations of the fibonacci sequence in multiple languages
+Record keeping for self reflection
