@@ -1,0 +1,28 @@
+This Game will be a 2D platformer
+
+Graphics engine:
+
+Azul3D
+
+Programming Language:
+
+Golang
+
+Learning Goals:
+
+Collision Detection
+Keyboard listening
+Model loading
+
+Projected time:
+
+2 weeks
+
+1st Week:
+
+Level to move around in
+Keyboard input
+
+2nd Week:
+
+Model loading
