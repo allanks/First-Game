@@ -20,6 +20,11 @@ func CreateLevel() (*Level) {
 	l.platforms = append(l.platforms, Platform{0,10,100})
 	l.platforms = append(l.platforms, Platform{120,10,100})
 	l.platforms = append(l.platforms, Platform{240,10,560})
+	l.platforms = append(l.platforms, Platform{100, 50, 80})
+	l.platforms = append(l.platforms, Platform{200, 50, 80})
+	l.platforms = append(l.platforms, Platform{100, 90, 60})
+	l.platforms = append(l.platforms, Platform{100, 130, 40})
+	l.platforms = append(l.platforms, Platform{100, 170, 20})
 	l.playerStartXPos = 10
 	l.playerStartYPos = 20
 	

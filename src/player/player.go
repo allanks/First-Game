@@ -25,6 +25,9 @@ func (user *Player) MoveX(direction int) {
 func (user *Player) Jump() {
 	user.jumpHeight = 0
 }
+func (user *Player) Land() {
+	user.jumpHeight = MAX_JUMP
+}
 func (user *Player) MoveY() {
 	if user.jumpHeight < MAX_JUMP {
 		user.YPos = user.YPos + 1

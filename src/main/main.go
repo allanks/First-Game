@@ -142,6 +142,8 @@ func moveUser(xDir chan int) {
 		user.MoveX(xMove)
 		if !lev.IsPlayerOnPlatform(user) {
 			user.MoveY()
+		}else {
+			user.Land()
 		}
 		time.Sleep(16 * time.Millisecond)
 	}
